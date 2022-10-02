@@ -8,5 +8,7 @@ while Well:
     talkto_me = input('Type gm: ')
     if(talkto_me == 'gm'):
         print(thatone[random.randint(0,4)])
-
-
+else:
+    print("Bye")
+    Well = False
+    
